@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+}
+
+.main h1 {
+    margin: 30px 0px;
+    font-size: 4rem;
+    color:#f05454;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    font-family: 'Fredoka One', cursive;
+}
+
+.main span {
+    color: #f05454;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.campo_coeficientes {
+    width: 75%;
+    height: 100%;
+    background: #30475e;
+    margin: 0px 0px 10px 0px;
+    border-radius: 5px;
+    border-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.forma {
+    margin:40px auto 10px auto;
+}
+
+p {
+    color: #30475e;
+    font-size: 1.3rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.btn {
+    display: flex;
+    padding: 8px 20px;
+    margin: 40px auto 40px auto;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background: #f05454;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #30475e;
+}
+
+#texto_salida p {
+    font-family: 'Varela Round', sans-serif;
+}
+
+hr {
+	border-style: dotted;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	color: #f05454;
+	border-width: 4px;
+	margin: 40px auto 30px auto;
+	width: 5%;
+}
+
+footer p {
+    color: #222831;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}

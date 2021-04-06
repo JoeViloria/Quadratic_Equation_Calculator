@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Calculadora de Ecuaciones Cuadráticas</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main">
+    <h1>Calculadora de Ecuaciones Cuadráticas</h1>
+
+    <p>
+        Por favor introduzca los coeficientes <span>a</span>, <span>b</span>, <span>c</span>, pertenecientes a la ecuación cuadrática a resolver de la forma 
+        <span>a</span>x&#x00B2; + <span>b</span>x + <span>c</span> = 0.
+    </p>
+
+    <form name="entrada_forma" action="javascript:validar();" class="forma">
+        <p><span>a</span> = <input type="text" name="terminoa" class="campo_coeficientes" required></p>
+        <p><span>b</span> = <input type="text" name="terminob" class="campo_coeficientes" required></p>
+        <p><span>c</span> = <input type="text" name="terminoc" class="campo_coeficientes" required></p>
+        <input class="btn" type="submit" value="Resolver">
+    </form>
+
+    <p id="texto_salida"/>
+    <hr>
+    
+    <footer>
+        <p>© 2020 | IEM-4080 - Técnicas De Programación Aplicación Aplicada</p>
+        <p>Joe Viloria - 100266940</p>
+    </footer>
+    </div>
+
+   
+    </div>
+
+
+    <script src="script.js"></script>
+   </body>
+</html>
